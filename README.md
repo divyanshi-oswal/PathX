@@ -61,7 +61,3 @@ PathX is a modern web application designed to help businesses streamline their l
 ## License
 
 This project is licensed under the MIT License.
-
-
-
-Let me know if you want this added directly to your `README.md` file, or if you’d like to personalize any section!
