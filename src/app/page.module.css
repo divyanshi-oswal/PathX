@@ -1,0 +1,150 @@
+
+.heroSection {
+  display: flex;
+  flex-direction: column; /* Stack content vertically on smaller screens */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  padding: 4rem 2rem; /* Reduce padding for smaller screens */
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  width: 100%;
+  text-align: center; /* Center text within the hero section */
+}
+
+@media (min-width: 768px) {
+  .heroSection {
+    flex-direction: row; /* Switch to horizontal layout on larger screens */
+    justify-content: space-between;
+    padding: 8rem 6rem;
+    text-align: left; /* Align text to the left on larger screens */
+  }
+}
+
+.heroContent {
+  flex: 1;
+  max-width: 600px;
+  margin-bottom: 30px; /* Add space below the text content on smaller screens */
+}
+
+@media (min-width: 768px) {
+  .heroContent {
+    margin-bottom: 0; /* Remove bottom margin on larger screens */
+  }
+}
+
+.heroTitle {
+  font-size: 3rem;
+  font-weight: bold;
+  color: hsl(var(--foreground));
+  margin-bottom: 1rem;
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  color: hsl(var(--primary));
+  margin-bottom: 2rem;
+}
+
+.heroDescription {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: hsl(var(--muted-foreground));
+  margin-bottom: 3rem;
+}
+
+.heroButtons {
+  display: flex;
+  justify-content: center; /* Center buttons on smaller screens */
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .heroButtons {
+    justify-content: flex-start; /* Align buttons to the start on larger screens */
+  }
+}
+
+.analyticsCard {
+  background-color: #242f3f; /* Dark blue-gray */
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  width: 100%; /* Make the card full-width on smaller screens */
+  max-width: 400px; /* Limit the card width on larger screens */
+  font-family: monospace;
+}
+
+.analyticsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.analyticsDots {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.analyticsDots span {
+  display: block;
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+}
+
+.dotRed {
+  background-color: #ff6059;
+}
+
+.dotYellow {
+  background-color: #ffbd2e;
+}
+
+.dotGreen {
+  background-color: #27c93f;
+}
+
+.analyticsTitle {
+  font-size: 0.9rem;
+  color: #9ca3af; /* Slate gray */
+}
+
+.analyticsResults {
+  font-size: 0.8rem;
+  color: #f3f4f6; /* Light gray */
+}
+
+.analyticsComment {
+  color: #f97316; /* Orange */
+  margin-bottom: 0.75rem;
+}
+
+.analyticsMetrics {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.analyticsMetrics p:first-child {
+  color: #9ca3af; /* Slate gray */
+}
+
+.realTime {
+  color: #f3f4f6; /* Light gray */
+}
+
+.optimized {
+  color: #27c93f; /* Green */
+  font-weight: bold;
+}
+
+.logisticsOptimization {
+  color: #9ca3af; /* Slate gray */
+  font-size: 0.7rem;
+  text-align: right;
+  margin-top: 1rem;
+}
+
+
+    

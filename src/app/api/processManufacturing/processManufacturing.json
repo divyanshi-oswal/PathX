@@ -1,0 +1,82 @@
+[
+    {
+        "Material": "RawMaterial1",
+        "Supplier": "SupplierA",
+        "LeadTime": 7,
+        "CostPerUnit": 25.50,
+        "DemandForecast": 500,
+        "StockLevel": 1200
+    },
+    {
+        "Material": "RawMaterial2",
+        "Supplier": "SupplierB",
+        "LeadTime": 14,
+        "CostPerUnit": 45.00,
+        "DemandForecast": 350,
+        "StockLevel": 800
+    },
+    {
+        "Material": "ComponentX",
+        "Supplier": "SupplierC",
+        "LeadTime": 21,
+        "CostPerUnit": 75.20,
+        "DemandForecast": 200,
+        "StockLevel": 500
+    },
+    {
+        "Material": "ChemicalY",
+        "Supplier": "SupplierD",
+        "LeadTime": 10,
+        "CostPerUnit": 110.00,
+        "DemandForecast": 150,
+        "StockLevel": 400
+    },
+    {
+        "Material": "PackagingFilm",
+        "Supplier": "SupplierE",
+        "LeadTime": 5,
+        "CostPerUnit": 8.75,
+        "DemandForecast": 800,
+        "StockLevel": 2000
+    },
+    {
+        "Material": "LabelStock",
+        "Supplier": "SupplierF",
+        "LeadTime": 3,
+        "CostPerUnit": 4.20,
+        "DemandForecast": 900,
+        "StockLevel": 2500
+    },
+    {
+        "Material": "CatalystZ",
+        "Supplier": "SupplierG",
+        "LeadTime": 28,
+        "CostPerUnit": 215.00,
+        "DemandForecast": 50,
+        "StockLevel": 150
+    },
+    {
+        "Material": "PreservativeQ",
+        "Supplier": "SupplierH",
+        "LeadTime": 9,
+        "CostPerUnit": 65.40,
+        "DemandForecast": 120,
+        "StockLevel": 300
+    },
+    {
+        "Material": "CleaningAgentP",
+        "Supplier": "SupplierI",
+        "LeadTime": 6,
+        "CostPerUnit": 15.80,
+        "DemandForecast": 400,
+        "StockLevel": 1000
+    },
+    {
+        "Material": "SealantS",
+        "Supplier": "SupplierJ",
+        "LeadTime": 12,
+        "CostPerUnit": 55.50,
+        "DemandForecast": 250,
+        "StockLevel": 600
+    }
+]

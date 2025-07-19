@@ -1,0 +1,110 @@
+/* Import Inter font - must precede all other rules except @charset and @layer */
+@import
+  url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* https://www.radix-ui.com/colors */
+@layer base {
+  :root {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 36 100% 50%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+    --accent: 36 100% 50%;
+    --accent-foreground: 222.2 84% 4.9%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 0% 98%;
+    --border: 224 71% 4%;
+    --input: 224 71% 4%;
+    --ring: 217.2 32.6% 17.5%;
+    --radius: 0.5rem;
+    --sidebar-background: 0 0% 0%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 36 100% 50%;
+    --sidebar-primary-foreground: 0 0% 0%;
+    --sidebar-accent: 36 100% 50%;
+    --sidebar-accent-foreground: 0 0% 0%;
+    --sidebar-border: 224 71% 4%;
+    --sidebar-ring: 217.2 32.6% 17.5%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 36 100% 50%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+    --accent: 36 100% 50%;
+    --accent-foreground: 222.2 84% 4.9%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 0% 98%;
+    --border: 224 71% 4%;
+    --input: 224 71% 4%;
+    --ring: 217.2 32.6% 17.5%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --sidebar-background: 0 0% 0%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 36 100% 50%;
+    --sidebar-primary-foreground: 0 0% 0%;
+    --sidebar-accent: 36 100% 50%;
+    --sidebar-accent-foreground: 0 0% 0%;
+    --sidebar-border: 224 71% 4%;
+    --sidebar-ring: 217.2 32.6% 17.5%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply text-foreground;
+    margin-left: 20px; /* Add this line */
+  }
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 300px;
+  z-index: 1;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+@layer components {
+  /* Add any component-specific styles here */
+}
+
+@layer utilities {
+  /* Add any utility classes here */
+}
+

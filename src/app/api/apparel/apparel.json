@@ -1,0 +1,152 @@
+[
+  {
+    "product_id": "1",
+    "title": "Nike Sportswear Club Fleece",
+    "description": "The Nike Sportswear Club Fleece Pullover Hoodie is made from a soft, comfortable fleece fabric.",
+    "price": 54.99,
+    "category": "hoodies",
+    "gender": "men",
+    "color": "Grey Heather/Matte Silver/White",
+    "images": [
+      "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/8e20a02f-5331-4f49-9db0-dd08294f87ca/sportswear-club-fleece-pullover-hoodie-xw035X.png"
+    ],
+    "productName": "Nike Sportswear Club Fleece Serenity Hoodie",
+    "stock": 26,
+    "rating": 3.1
+  },
+  {
+    "product_id": "2",
+    "title": "Nike Air Force 1 '07",
+    "description": "The Nike Air Force 1 '07 is a classic basketball shoe that has been updated with modern materials and technology.",
+    "price": 109.99,
+    "category": "shoes",
+    "gender": "men",
+    "color": "White/White",
+    "images": [
+      "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/f9bca109-3f3e-428f-a067-53d6696f0aa7/air-force-1-07-shoe-j6N3Jk.png"
+    ],
+    "productName": "Nike Air Force 1 '07: Icon Reimagined",
+    "stock": 96,
+    "rating": 3.6
+  },
+  {
+    "product_id": "3",
+    "title": "Nike Dri-FIT ADV Techknit Ultra",
+    "description": "The Nike Dri-FIT ADV Techknit Ultra Running Top is made from a lightweight, breathable fabric that helps you stay cool and dry.",
+    "price": 84.99,
+    "category": "tops",
+    "gender": "women",
+    "color": "Black/Reflective Silv",
+    "images": [
+      "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/984537b0-4f52-4b5d-9a5d-323e2340391a/dri-fit-adv-techknit-ultra-running-top-9FxqG6.png"
+    ],
+    "productName": "Nike Dri-FIT ADV Techknit Ultra: AeroSwift Edition",
+    "stock": 28,
+    "rating": 4.9
+  },
+  {
+    "product_id": "4",
+    "title": "Nike Sportswear Tech Fleece",
+    "description": "The Nike Sportswear Tech Fleece Pants are made from a soft, lightweight fleece fabric that keeps you warm and comfortable.",
+    "price": 104.99,
+    "category": "pants",
+    "gender": "men",
+    "color": "Dark Grey Heather/Black",
+    "images": [
+      "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/4927a979-8885-4f56-b589-24c476e84fa0/sportswear-tech-fleece-pants-5MmqF6.png"
+    ],
+    "productName": "Nike Tech Fleece Elevate Pants",
+    "stock": 68,
+    "rating": 3.9
+  },
+  {
+    "product_id": "5",
+    "title": "Nike Revolution 6 Next Nature",
+    "description": "The Nike Revolution 6 Next Nature is made with at least 20% recycled content by weight.",
+    "price": 64.99,
+    "category": "shoes",
+    "gender": "women",
+    "color": "Black/White/Anthracite",
+    "images": [
+      "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/12922131-306d-4dd5-a986-454334136921/revolution-6-next-nature-road-running-shoes-WJ5pzV.png"
+    ],
+    "productName": "Nike Revolution 6: Evolved Nature",
+    "stock": 96,
+    "rating": 4.5
+  },
+  {
+    "product_id": "6",
+    "title": "Nike Pro Dri-FIT",
+    "description": "The Nike Pro Dri-FIT Training T-Shirt is made from a lightweight, breathable fabric that helps you stay cool and dry.",
+    "price": 34.99,
+    "category": "t-shirts",
+    "gender": "men",
+    "color": "White/Black",
+    "images": [
+      "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/0c659849-912c-4fbe-af23-7528514912a1/pro-dri-fit-training-t-shirt-L1WnGr.png"
+    ],
+    "productName": "Nike Pro Dri-FIT Elevate Tee",
+    "stock": 89,
+    "rating": 3.8
+  },
+  {
+    "product_id": "7",
+    "title": "Nike One Luxe Icon Clash",
+    "description": "The Nike One Luxe Icon Clash Leggings are made from a soft, smooth fabric that feels great against your skin.",
+    "price": 79.99,
+    "category": "leggings",
+    "gender": "women",
+    "color": "Black/Clear",
+    "images": [
+      "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/e553fc67-23a4-4768-893d-4d2ca00c59b2/one-luxe-icon-clash-high-rise-leggings-FkcQf8.png"
+    ],
+    "productName": "Nike One Luxe Icon Clash Second Skin Leggings",
+    "stock": 48,
+    "rating": 3.5
+  },
+  {
+    "product_id": "8",
+    "title": "Nike Everyday Plus Lightweight",
+    "description": "The Nike Everyday Plus Lightweight Training Ankle Socks are made from a soft, comfortable fabric that helps you stay cool and dry.",
+    "price": 19.99,
+    "category": "socks",
+    "gender": "unisex",
+    "color": "White/Black",
+    "images": [
+      "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/f2815f1c-2b8d-48ef-a969-f37f4345f581/everyday-plus-lightweight-training-ankle-socks-zKx14Z.png"
+    ],
+    "productName": "Apparel Item 8",
+    "stock": 50,
+    "rating": 4
+  },
+  {
+    "product_id": "9",
+    "title": "Nike Sportswear Windrunner",
+    "description": "The Nike Sportswear Windrunner Jacket is made from a lightweight, durable fabric that helps you stay warm and dry.",
+    "price": 120,
+    "category": "jackets",
+    "gender": "men",
+    "color": "University Red/Black/White",
+    "images": [
+      "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/018d4033-008a-4102-8b83-68ca59245605/sportswear-windrunner-jacket-VJwbmG.png"
+    ],
+    "productName": "Apparel Item 9",
+    "stock": 50,
+    "rating": 4
+  },
+  {
+    "product_id": "10",
+    "title": "Nike Heritage86",
+    "description": "The Nike Heritage86 Cap is made from a durable cotton twill fabric that helps you stay comfortable.",
+    "price": 24.99,
+    "category": "hats",
+    "gender": "unisex",
+    "color": "Black/White",
+    "images": [
+      "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/0346e964-877a-43ed-9f51-a49c96e84597/heritage86-adjustable-hat-B7JZ3M.png"
+    ],
+    "productName": "Apparel Item 10",
+    "stock": 50,
+    "rating": 4
+  }
+]
